@@ -1,0 +1,12 @@
+<div class="container text-center">
+    <h2>Dynamic Component</h2>
+    <button class="btn btn-danger m-3" (click)="buttonClick('red')">Red</button>
+    <button class="btn btn-success m-3" (click)="buttonClick('green')">Green</button>
+    <div class="card m-3">
+      <div class="card-body">
+        <p>Dynamic components will load here...</p>
+        <ng-container #container>
+        </ng-container>
+      </div>
+    </div>
+  </div>
